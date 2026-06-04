@@ -4,8 +4,8 @@ import random
 answer=random.randint(1, 101)
 
 print("Lets play a game!")
-difficulty_level= input("What mode do you wanna play? Type 'Easy' for easy and 'Hard' for hard: ").lower()
 print("There 10 guesses for easy mode and 5 guesses for hard mode.")
+difficulty_level= input("What mode do you wanna play? Type 'Easy' for easy and 'Hard' for hard: ").lower()
 guess= int(input("Guess a number between 1 to 100: "))
 
 
